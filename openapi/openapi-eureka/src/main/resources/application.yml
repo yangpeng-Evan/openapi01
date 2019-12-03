@@ -1,0 +1,21 @@
+server:
+  port: 30000
+
+spring:
+  application:
+    name: openapi-eureka
+  security:
+    user:
+      name: admin
+      password: admin
+
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: http://localhost:30000/eureka
+  instance:
+    #开启，页面显示服务名和ip
+    prefer-ip-address: true

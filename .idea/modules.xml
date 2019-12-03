@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/openapi/openapi.iml" filepath="$PROJECT_DIR$/openapi/openapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openapi/openapi-cache/openapi-cache.iml" filepath="$PROJECT_DIR$/openapi/openapi-cache/openapi-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/openapi/openapi-eureka/openapi-eureka.iml" filepath="$PROJECT_DIR$/openapi/openapi-eureka/openapi-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/openapi01.iml" filepath="$PROJECT_DIR$/.idea/openapi01.iml" />
+    </modules>
+  </component>
+</project>
