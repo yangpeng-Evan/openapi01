@@ -15,7 +15,9 @@ public class RedisController {
     private RedisServiceApi redisServiceApi;
     @GetMapping("/save")
     public boolean save(String key,String value,Long expire){
+        System.out.println("ceshi");
         return redisServiceApi.set(key, value, expire);
+
     }
 
     @GetMapping("/get/{key}")
